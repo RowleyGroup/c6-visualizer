@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 2s ease;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.tooltip {
+  padding: 3px;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: #eee;
+  opacity: 0.6;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes App-logo-spin {
+  0% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  100% { transform: rotate(2deg); }
+}
+
+.control-group {
+  padding: 10px;
+}
+
+.control-group label {
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+.control-group select {
+  width: 200px;
+  height: 40px;
+  padding: 6px 12px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}

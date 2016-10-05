@@ -1,0 +1,21 @@
+{
+  "name": "c6-visualizer",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "react": "^15.3.2",
+    "react-d3-components": "^0.6.5",
+    "react-dom": "^15.3.2",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
